@@ -6,7 +6,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}/webapp
+  # TUTAJ WPISUJEMY TWOJĄ NAZWĘ MAŁYMI LITERAMI:
+  IMAGE_NAME: pads0n/github-cloud-lab/webapp
 
 jobs:
   quality-check:
